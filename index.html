@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="container">
+            <h1>Please click to start the game:</h1>
+    
+            <form>
+    
+                <p><span id="result"></span></p>
+                <p><span id="error"></span></p>
+                <div>
+                    <input type="number" min="1" max="5" name="numberOfClicks" id="numberOfClicks">
+    
+                    <input type="button" name="startGame" onClick="noOfGames()" value="Start game" id="startGame">
+                    <p>Time left: <span id="counter"></span></p>
+    
+                    <div class="flex-container">
+                        <div class="flex-child magenta">
+                            <div  id="overlay2">Press S: <span id="pressS"></span></div>
+                            <canvas id="my-canvasS"></canvas>
+    
+                        </div>
+                        <div class="flex-child green">
+                            <div id="overlay">Press L: <span id="pressL"></span></div>
+                            <canvas id="my-canvasL"></canvas>
+    
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+            </form>
+            
+            
+        </div>
+<script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.13/dist/index.min.js"></script>
+<script src= "index.js"></script>
+</body>
+</html>
