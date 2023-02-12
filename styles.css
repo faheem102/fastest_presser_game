@@ -1,0 +1,55 @@
+.container {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    height: 200px;
+}
+
+#error {
+    color: red;
+    font-weight: bolder;
+
+}
+
+#startGame {
+    background-color: forestgreen;
+    color: white;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+#overlay {
+    position: fixed;
+    display: block;
+
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#overlay2 {
+    position: fixed;
+    display: block;
+
+    z-index: 1000;
+    cursor: pointer;
+}
+
+@media(max-width:875px) {
+    .container {
+        width: 90%;
+
+    }
+
+}
