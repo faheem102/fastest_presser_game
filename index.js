@@ -8,7 +8,7 @@ function noOfGames() {
     StartGame();
   else {
     document.getElementById("error").innerHTML =
-      "Set time (greater than or equal to 1 minute) and start game, before clicking!!";
+      "Set time (between 1 to 10 seconds) and start game, before clicking!!";
     return;
   }
 }
