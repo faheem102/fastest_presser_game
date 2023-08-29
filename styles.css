@@ -1,8 +1,12 @@
+body{
+    background-image: linear-gradient(to right, #FFB6D9, #337CCF);
+}
 .container {
     margin: auto;
     width: 50%;
     border: 3px solid green;
     padding: 10px;
+    color: #F3FDE8;
 }
 
 .flex-container {
@@ -15,15 +19,29 @@
     font-weight: bolder;
 
 }
+#time{
+    font-size: 1.4rem;
+}
+#numberOfClicks{
+    height: 1.5rem;
+    width: 3rem;
+}
 
 #startGame {
     background-color: forestgreen;
     color: white;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 3px;
+    font-weight: 700;
+    font-style: bold;
 }
 
 .flex-child {
     flex: 1;
     border: 2px solid blueviolet;
+    font-size: 2rem;
+    
 }
 
 .flex-child:first-child {
